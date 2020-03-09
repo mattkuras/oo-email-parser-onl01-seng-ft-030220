@@ -11,9 +11,7 @@ def initialize(emails)
 end 
 
 def parse 
-  array = []
-  array << @emails.split( /, */ )
-  array.uniq
+  @emails.split( /, */ ).uniq
 end
 
 end
