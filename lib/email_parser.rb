@@ -11,6 +11,7 @@ def initialize(emails)
 end 
 
 def parse 
+  array = []
   
 end
 
