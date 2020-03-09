@@ -12,6 +12,7 @@ end
 
 def parse 
  @emails = @emails.gsub(/[\s,]/ ," ").split
+ @emails.uniq 
 end
 
 end
