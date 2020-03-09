@@ -12,7 +12,8 @@ end
 
 def parse 
   array = []
-  parse = @emails.split( /, */ )
+  array << @emails.split( /, */ )
+  array.uniq
 end
 
 end
