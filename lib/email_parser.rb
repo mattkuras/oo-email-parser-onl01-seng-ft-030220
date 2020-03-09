@@ -3,11 +3,13 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
-class EmailAddressParser
-  
-  def parse
-end
-  
+class EmailParser
+attr_accessor :emails 
+
+def initialize(emails)
+  @emails = emails
+end 
+
   def initialize(emails)
 end
 end
