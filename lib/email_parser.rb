@@ -12,7 +12,7 @@ end
 
 def parse 
   array = []
-  parse = @emails.split 
+  parse = @emails.split( /, */ )
 end
 
 end
