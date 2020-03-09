@@ -10,6 +10,8 @@ def initialize(emails)
   @emails = emails
 end 
 
-  def initialize(emails)
+def parse 
+  
 end
+
 end
